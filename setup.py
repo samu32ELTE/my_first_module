@@ -1,15 +1,15 @@
 from setuptools import setup
-from my_first_module import __version__
+from myfirstmodule import __version__
 
 REQUIREMENTS = [i.strip() for i in open("requirements.txt").readlines()]
 setup(
-    name='my_first_module',
+    name='myfirstmodule',
     version=__version__,
-    url='https://github.com/samu32ELTE/my_first_module/',
+    url='https://github.com/samu32ELTE/myfirstmodule/',
     author='Sámuel G. Balogh',
     author_email='samu32@caesar.elte.hu',
-    py_modules=['my_first_module'],
-    install_requires= REQUIREMENTS #['numpy']
+    py_modules=['myfirstmodule'],
+    install_requires= REQUIREMENTS
 )
 
 
