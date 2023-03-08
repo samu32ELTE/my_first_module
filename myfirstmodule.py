@@ -1,7 +1,7 @@
 __version__ = '1.0.0'
 
-import numpy
-import networkx
+import numpy as np
+import networkx as nx
 from community import best_partition as Louvain
 print('Numpy succesfully loaded.')
 
