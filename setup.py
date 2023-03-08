@@ -1,6 +1,7 @@
 from setuptools import setup
 from my_first_module import __version__
 
+REQUIREMENTS = [i.strip() for i in open("requirements.txt").readlines()]
 setup(
     name='my_first_module',
     version=__version__,
@@ -8,7 +9,5 @@ setup(
     author='Sámuel G. Balogh',
     author_email='samu32@caesar.elte.hu',
     py_modules=['my_first_module'],
-    install_requires=[                  
-        'numpy'
-    ]
+    install_requires= REQUIREMENTS #['numpy']
 )
