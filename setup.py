@@ -23,7 +23,7 @@ if __name__ == "__main__":
     setup(
         name='myfirstmodule',
         version=__version__,
-        url='https://github.com/samu32ELTE/myfirstmodule',
+        url='https://github.com/samu32ELTE/myfirstmodule/',
         author='Sámuel G. Balogh',
         author_email='samu32@caesar.elte.hu',
         py_modules=['myfirstmodule'],

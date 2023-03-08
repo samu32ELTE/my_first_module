@@ -1,6 +1,9 @@
 __version__ = '1.0.0'
 
 import numpy
+import networkx
+import community
+
 print('Numpy succesfully loaded.')
 
 def print_sum(a, b, *args):
