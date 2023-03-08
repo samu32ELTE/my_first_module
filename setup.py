@@ -1,6 +1,6 @@
 import sys
 from setuptools import setup
-from myfirstmodule import __version__
+#from myfirstmodule import __version__
 
 
 if sys.version_info[:2] < (3, 8):
@@ -15,6 +15,7 @@ with open("__init__.py") as fid:
     for line in fid:
         if line.startswith("__version__"):
             version = line.strip().split()[-1][1:-1]
+            print(version)
             break
 
 REQUIREMENTS = [i.strip() for i in open("requirements.txt").readlines()]
