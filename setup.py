@@ -22,7 +22,7 @@ REQUIREMENTS = [i.strip() for i in open("requirements.txt").readlines()]
 if __name__ == "__main__":
     setup(
         name='myfirstmodule',
-        version=__version__,
+        version=version,
         url='https://github.com/samu32ELTE/myfirstmodule/',
         author='Sámuel G. Balogh',
         author_email='samu32@caesar.elte.hu',
