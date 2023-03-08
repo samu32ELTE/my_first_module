@@ -1,3 +1,6 @@
+import numpy
+print('Numpy succesfully loaded.')
+
 def print_sum(a, b, *args):
     if args is None:
         print ('sum:',a+b)
