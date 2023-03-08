@@ -11,7 +11,7 @@ if sys.version_info[:2] < (3, 8):
     sys.stderr.write(error + "\n")
     sys.exit(1)
 
-with open("myfirstmodule/__init__.py") as fid:
+with open("__init__.py") as fid:
     for line in fid:
         if line.startswith("__version__"):
             version = line.strip().split()[-1][1:-1]
@@ -23,7 +23,7 @@ if __name__ == "__main__":
     setup(
         name='myfirstmodule',
         version=__version__,
-        url='https://github.com/samu32ELTE/myfirstmodule/',
+        url='https://github.com/samu32ELTE/myfirstmodule',
         author='Sámuel G. Balogh',
         author_email='samu32@caesar.elte.hu',
         py_modules=['myfirstmodule'],
