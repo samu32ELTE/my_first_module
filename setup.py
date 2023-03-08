@@ -1,4 +1,5 @@
 from setuptools import setup
+from my_first_module import __version__
 
 REQUIREMENTS = [i.strip() for i in open("requirements.txt").readlines()]
 setup(
@@ -11,4 +12,4 @@ setup(
     install_requires= REQUIREMENTS #['numpy']
 )
 
-from my_first_module import __version__
+
