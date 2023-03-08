@@ -5,7 +5,7 @@ REQUIREMENTS = [i.strip() for i in open("requirements.txt").readlines()]
 setup(
     name='my_first_module',
     version=__version__,
-    url='https://github.com/samu32ELTE/my_first_module',
+    url='https://github.com/samu32ELTE/my_first_module/',
     author='Sámuel G. Balogh',
     author_email='samu32@caesar.elte.hu',
     py_modules=['my_first_module'],
