@@ -1,6 +1,5 @@
 __version__ = 'dev'
 
-
 import numpy
 print('Numpy succesfully loaded.')
 
